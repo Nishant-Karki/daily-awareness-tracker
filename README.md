@@ -6,6 +6,9 @@
 <h3>Installation</h3>
 <ol>
     <li>Setup <code>.env</code> and update the database credentials.</li>
+    <li>Install all dependencies:
+        <pre><code>composer install</code></pre>
+    </li>
     <li>Run the migration using the command:
         <pre><code>php artisan migrate</code></pre>
     </li>
@@ -14,6 +17,7 @@
     </li>
     <li>Finally, run the application:
         <pre><code>php artisan serve</code></pre>
+        <p>Navigate to <code>http://localhost:8000</code></p>
     </li>
 </ol>
 

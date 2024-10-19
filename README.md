@@ -1,31 +1,31 @@
-Daily Awareness Tracker
+<h2>Daily Awareness Tracker</h2>
 
-A simple Laravel application is required for a user to simply track some essential daily stats.
+<p>A simple Laravel application to track essential daily stats.</p>
+<img width="1206" alt="Screenshot 2024-10-19 at 20 40 33" src="https://github.com/user-attachments/assets/7de7e276-7291-4cdf-817f-bede85bf3700">
 
-Steps to run the application
-1. Setup .env and the database credentials
-2. Run the migration using command
-    
-    php artisan migrate
-    
-3. Run the seeders using
-    
-    php artisan db:seed
-    
-4. Finally, run the application
+<h3>Installation</h3>
+<ol>
+    <li>Setup <code>.env</code> and update the database credentials.</li>
+    <li>Run the migration using the command:
+        <pre><code>php artisan migrate</code></pre>
+    </li>
+    <li>Run the seeders using:
+        <pre><code>php artisan db:seed</code></pre>
+    </li>
+    <li>Finally, run the application:
+        <pre><code>php artisan serve</code></pre>
+    </li>
+</ol>
 
-    php artisan serve
-    
-Credentials for Test User
-email: test@example.com
+<h3>Credentials for Test User</h3>
+<p>Email: <strong>test@example.com</strong><br>
+   Password: <strong>password</strong></p>
 
-password: password
-
-
-Features
-1. Login and Registration
-2. Enter Daily awareness data with quality score
-3. Analytics of the quality score
-4. Update and delete the data
-5. Notification in the nav in case you forget to enter todays' data
-
+<h3>Features</h3>
+<ul>
+    <li>Login and Registration</li>
+    <li>Enter Daily awareness data with quality score</li>
+    <li>Analytics of the quality score</li>
+    <li>Update and delete the data</li>
+    <li>Notification in the navigation bar in case you forget to enter today's data</li>
+</ul>
